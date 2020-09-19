@@ -2,6 +2,7 @@
 # Movie Time
 
 A small web app for finding information about all of your favorite movies using the The Movie Database API
+![PopularMovies](./client/gitImages/popularMovies.png)
 
 ## Project Setup
 
@@ -102,5 +103,10 @@ To get an idea on how the commits were made you can refer to https://github.com/
 This project is made as part of the interview process at Lattice. 
 Enjoy !!
  
- 
-
+ ## Screen Shots
+ ### Search
+![SearchMovies](./client/gitImages/searchMovies.png)
+### Movie Drtails
+![MoviesDetails](./client/gitImages/movieDetails.png)
+### Disney Movies
+![DisneyMovies](./client/gitImages/disneyMovies.png)
