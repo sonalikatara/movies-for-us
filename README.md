@@ -2,7 +2,7 @@
 # Movie Time
 
 A small web app for finding information about all of your favorite movies using the The Movie Database API
-![PopularMovies](https://github.com/sonalikatara/movies-for-us/client/gitImages/popularMovies.png)
+![PopularMovies](./client/gitImages/popularMovies.png)
 
 ## Project Setup
 
@@ -102,8 +102,8 @@ Enjoy !!
  
  ## Screen Shots
  ### Search
-![SearchMovies](https://github.com/sonalikatara/movies-for-us/client/gitImages/searchMovies.png)
+![SearchMovies](./client/gitImages/searchMovies.png)
 ### Movie Details
-![MoviesDetails](https://github.com/sonalikatara/movies-for-us/client/gitImages/movieDetails.png)
+![MoviesDetails](./client/gitImages/movieDetails.png)
 ### Disney Movies
-![DisneyMovies](https://github.com/sonalikatara/movies-for-us/client/gitImages/disneyMovies.png)
+![DisneyMovies](./client/gitImages/disneyMovies.png)
