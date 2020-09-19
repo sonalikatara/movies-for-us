@@ -20,19 +20,19 @@ An express server running on the server at port 9000
 2. At the root folder, install all the packages
   `  $ yarn install  `
   
-  Then, set the server to run at port 9000.
+   Then, set the server to run at port 9000.
 
-  On a MAC this can be done by 
+   On a MAC this can be done by 
   ` $ PORT=9000 `
 
-  Now, you can start the server by 
+   Now, you can start the server by 
   `yarn start `
   
-  If you are using npm 
+   If you are using npm 
   ```
-  $ npm install
+   $ npm install
   
-  $ PORT=9000 npm start
+   $ PORT=9000 npm start
   ```
 
 3. Listen to the server on http://localhost:9000
