@@ -106,7 +106,7 @@ Enjoy !!
  ## Screen Shots
  ### Search
 ![SearchMovies](./client/gitImages/searchMovies.png)
-### Movie Drtails
+### Movie Details
 ![MoviesDetails](./client/gitImages/movieDetails.png)
 ### Disney Movies
 ![DisneyMovies](./client/gitImages/disneyMovies.png)
