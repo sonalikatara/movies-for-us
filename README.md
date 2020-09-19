@@ -96,9 +96,6 @@ We can add tests to check that each route is loaded and the app is not crashing
 More tests can be added to check that items in the list are unique and pulled from cache when the server is down or slow.
 We can further check if the API is returning valid results
 
-## Notes
-This project was initailly creates using two seperate prohjects for running the client and the server.
-To get an idea on how the commits were made you can refer to https://github.com/sonalikatara/movies-for-me for client app and to https://github.com/sonalikatara/movies-server for server app. 
 
 ## Motivation
 This project is made as part of the interview process at Lattice. 
