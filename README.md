@@ -1,21 +1,21 @@
-<<<<<<< HEAD
+
 # movies-for-us
 # movies-for-us
-#Project
+# Project
 
 A small web app for finding information about all of your favorite movies using the The Movie Database API
 #Project Setup
 
 #Technical Features
 The UI uses css styles, Styled components and bootstrap library. I started wil css and added the other libraries as needed, ideally I would clean up the code to be more consistent in using the same library if possible.
-##client
+## client
 The client application is in the /client folder. 
 It was created using create-react app and it uses ReactRouter for client side routing. it runs on port 3000.
-##server
+## server
 An express server running on the server at port 9000
 
 
-#Installation and Launching 
+#I nstallation and Launching 
 
 1. download the project [https://github.com/sonalikatara/movies-for-us]https://github.com/sonalikatara/movies-for-us
 
@@ -107,7 +107,7 @@ An express server running on the server at port 9000
 I have not added my .env file to .gitignore so that it is available to you, the .env files must always be kept in the .gitignore folder.
 
 ## Features
->>>>>>> 5ce6a42bc1ad1df1d85155a4262c48757f14b0a7
+
 1. When first loaded, the user sees a list of the most popular movies and a search bar.
 2. A user is able to search for a movie by title in the search bar, and the matching results should show up in the list of movies. This list is responsive and has infinite scroll.
 3. A user can click on a movie in the list and be taken to a page that displays more details for the movie (title, movie poster,ratings, categories, release date,overview, etc).
@@ -116,13 +116,7 @@ I have not added my .env file to .gitignore so that it is available to you, the 
 6. A user can also view a list of popular movies of the Animation Genre ( search by genres ).
 7. The app caches the popular movies, animation movies and disney movies in the browser’s local storage and uses it to display content when the server is slower offline.
  
-<<<<<<< HEAD
-#Motivation
-This project is made as part of the interview process at Lattice. 
- 
- 
 
-=======
 ## Server API's
 
 ` /movies  `          
