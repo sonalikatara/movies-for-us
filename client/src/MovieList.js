@@ -52,16 +52,19 @@ async getPopularMovies(){
       const popularMoviesUrl =API_URL_POPULAR_MOVIES+pageNumber;
       let response = await axios.get(popularMoviesUrl);
       let popularMovies = response.data;
+      let allMovies= "";
       if (popularMovies.length >0){
         this.setState(
-        st => ({ 
-          movies: pageNumber > 1 ?[...st.movies, ...popularMovies]: popularMovies,
-          loading: false,
-          pageNumber: pageNumber,
-        })
+        st => {
+          allMovies = pageNumber > 1 ?[...st.movies, ...popularMovies]: popularMovies
+          return ({ 
+            movies: allMovies,
+            loading: false,
+            pageNumber: pageNumber,
+          })}
         );  
         // store the Movies in local storage
-        window.localStorage.setItem("popularMovies", JSON.stringify(this.state.movies))
+        window.localStorage.setItem("popularMovies", JSON.stringify(allMovies))
       }
        
   } catch(error){

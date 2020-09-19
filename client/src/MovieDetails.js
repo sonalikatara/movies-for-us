@@ -50,8 +50,8 @@ class MovieDetails extends React.Component{
                 <div className="col">  
                     <div className="row">
                         <div className="col">
-                            <img className="img-fluid mx-auto d-block"  src={"https://image.tmdb.org/t/p/w1280/" + backdrop_path}
-                            alt={title}  width="1200"/>
+                            {backdrop_path && <img className="img-fluid mx-auto d-block"  src={"https://image.tmdb.org/t/p/w1280/" + backdrop_path}
+                            alt={title}  width="1200"/>}
                         </div>
                      </div>
                      <div className="row p-4">

@@ -9,10 +9,10 @@ export default withRouter(function  Movie(props) {
     return (
       <div className="Movie" onClick={handleClick}>
         <div className="Movie-img">
-          <img
+         {movie.backdrop_path && <img
             src={`https://image.tmdb.org/t/p/w1280/${movie.backdrop_path}`}
             alt={movie.title}
-          />
+          />}
         </div>
         <div className="Movie-details">
           <div ><span className="Movie-title">{movie.title} </span>  {movie.release_date && movie.release_date.slice(0, 4)}</div>

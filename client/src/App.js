@@ -5,7 +5,7 @@ import DisneyMovies from './DisneyMovies';
 import AnimationMovies from './AnimationMovies';
 import Footer from './Footer';
 import Navbar from './Navbar';
-import { Route, Switch, withRouter } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
 function App() {
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default withRouter(App);
+export default App;
