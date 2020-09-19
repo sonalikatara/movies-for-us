@@ -95,10 +95,6 @@ We can add tests to check that each route is loaded and the app is not crashing
 More tests can be added to check that items in the list are unique and pulled from cache when the server is down or slow.
 We can further check if the API is returning valid results
 
-
-## Motivation
-This project is made as part of the interview process at Lattice. 
-Enjoy !!
  
  ## Screen Shots
  ### Search
