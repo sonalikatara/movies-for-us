@@ -1,5 +1,6 @@
 
 # Movie Time
+https://github.com/sonalikatara/movies-for-us
 
 A small web app for finding information about all of your favorite movies using the The Movie Database API
 ![PopularMovies](./client/gitImages/popularMovies.png)
