@@ -1,4 +1,5 @@
 import React from "react";
+import {withRouter} from "react-router-dom";
 import DiscoverMovies from "./DiscoverMovies";
 import axios from "axios";
 
@@ -55,4 +56,4 @@ class DisneyMovies extends React.Component {
       );
     }
   }
-  export default DisneyMovies;
+  export default withRouter(DisneyMovies);

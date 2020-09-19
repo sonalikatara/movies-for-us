@@ -28,7 +28,7 @@ let cancelToken;
 
 /** To DO : create a seperate component for search */
 
-class MovieList extends React.Component {
+export class MovieList extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
