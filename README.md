@@ -66,6 +66,38 @@ I have not added my .env file to .gitignore so that it is available to you, the 
 6. A user can also view a list of popular movies of the Animation Genre ( search by genres ).
 7. The app caches the popular movies, animation movies and disney movies in the browser’s local storage and uses it to display content when the server is slower offline.
  
+## Server API's
+
+` /movies  `          
+
+returns list of popular movies it also takes an optional parameter `page` to get records of that page number
+
+` /movie?id=:id   `  
+
+returns details on a movie of id = :id
+
+ ` /search?query=:query&page=:page  `     
+
+returns search results for movies on `query` at `page` (default 1) 
+
+ ` /discoverquery=:query&queryValue=:queryValue&page=:page`
+
+Discover movies by different types of data like average rating, number of votes, genres and certifications. default values are sort_by populatity.desc . The client app is using it to pull data on Genre: Annimation and production_company :"Walt Disney Production' 
+
+## Test
+```
+$ cd client
+$ yarn test
+```
+I have only added one test case to check that the MovieLists are loading the MovieList control is called.
+We can add tests to check that each route is loaded and the app is not crashing
+More tests can be added to check that items in the list are unique and pulled from cache when the server is down or slow.
+We can further check if the API is returning valid results
+
+## Notes
+This project was initailly creates using two seperate prohjects for running the client and the server.
+To get an idea on how the commits were made you can refer to https://github.com/sonalikatara/movies-for-me for client app and to https://github.com/sonalikatara/movies-server for server app. 
+
 ## Motivation
 This project is made as part of the interview process at Lattice. 
 Enjoy !!
