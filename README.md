@@ -2,7 +2,7 @@
 # Movie Time
 
 A small web app for finding information about all of your favorite movies using the The Movie Database API
-![PopularMovies](./client/gitImages/popularMovies.png)
+![PopularMovies](https://github.com/sonalikatara/movies-for-us/client/gitImages/popularMovies.png)
 
 ## Project Setup
 
@@ -16,7 +16,7 @@ An express server running on the server at port 9000
 
 ## Installation and Launching 
 
-1. Download the project https://github.com/sonalikatara/movies-for-us
+1. Download the project 
 
 2. At the root folder, install all the packages
   `  $ yarn install  `
@@ -102,8 +102,8 @@ Enjoy !!
  
  ## Screen Shots
  ### Search
-![SearchMovies](./client/gitImages/searchMovies.png)
+![SearchMovies](https://github.com/sonalikatara/movies-for-us/client/gitImages/searchMovies.png)
 ### Movie Details
-![MoviesDetails](./client/gitImages/movieDetails.png)
+![MoviesDetails](https://github.com/sonalikatara/movies-for-us/client/gitImages/movieDetails.png)
 ### Disney Movies
-![DisneyMovies](./client/gitImages/disneyMovies.png)
+![DisneyMovies](https://github.com/sonalikatara/movies-for-us/client/gitImages/disneyMovies.png)
