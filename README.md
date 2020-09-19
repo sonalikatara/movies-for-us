@@ -7,7 +7,7 @@ A small web app for finding information about all of your favorite movies using 
 
 The UI uses css styles, Styled components and bootstrap library. I started wil css and added the other libraries as needed, ideally I would clean up the code to be more consistent in using the same library if possible.
 ### client
-The client application is in the /client folder. 
+The client application is in the ` /client ` folder. 
 It was created using create-react app and it uses ReactRouter for client side routing. it runs on port 3000.
 ### server
 An express server running on the server at port 9000
@@ -17,28 +17,43 @@ An express server running on the server at port 9000
 
 1. Download the project https://github.com/sonalikatara/movies-for-us
 
-2. At the root folder set the poort to run the server
-   if you are running on a MAC book
-   run
-   $ yarn install 
-   $ PORT=9000 yarn start
-   or
-   $ npm install
-   $ PORT=9000 npm start
+2. At the root folder, install all the packages
+  `  $ yarn install  `
+  
+  Then, set the server to run at port 9000.
 
-3. Listen the server on http://localhost:9000
+  On a MAC this can be done by 
+  ` $ PORT=9000 `
+
+  Now, you can start the server by 
+  `yarn start `
+  
+  If you are using npm 
+  ```
+  $ npm install
+  
+  $ PORT=9000 npm start
+  ```
+
+3. Listen to the server on http://localhost:9000
   you can test it by running  http://localhost:9000/movies
 
 4. Now, to start the client app
-   $ cd client
+  ` $ cd client `
 
+  ```
    $ yarn install
-   $ yarn start
+   
+   $ yarn start   
+  ```  
    or
+  ``` 
    $ npm install
+   
    $ npm start
-
- 5. Listen the client on http://localhost:3000
+ ``` 
+ 
+ 5. Listen to the client on http://localhost:3000
 
 I have not added my .env file to .gitignore so that it is available to you, the .env files must always be kept in the .gitignore folder.
 
